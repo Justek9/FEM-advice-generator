@@ -1,0 +1,15 @@
+.dark-theme {
+	--primary: hsl(218, 23%, 16%);
+	--fixed: hsl(150, 100%, 66%);
+	--secndary: hsl(217, 19%, 24%);
+	--font-color: hsl(193, 38%, 86%);
+	--font-text: hsl(218, 23%, 16%);
+}
+
+.light-theme {
+	--primary: hsl(0, 0%, 100%);
+	--fixed: hsl(150, 100%, 66%);
+	--secndary: #ebfcfb;
+	--font-color: hsl(217, 19%, 24%);
+	--font-text: hsl(218, 23%, 16%);
+}

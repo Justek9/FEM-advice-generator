@@ -8,9 +8,9 @@
 
 .container {
 	width: 60%;
-	height: 400px;
-	color: hsl(193, 38%, 86%);
-	background-color: hsl(217, 19%, 24%);
+	min-height: 400px;
+	color: var(--font-color);
+	background-color: var(--secndary);
 	border-radius: 6px;
 	text-align: center;
 	padding: 0 2rem;
@@ -21,7 +21,7 @@
 }
 
 .advice {
-	color: hsl(150, 100%, 66%);
+	color: var(--fixed);
 	margin-top: 3rem;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
@@ -31,7 +31,7 @@
 	height: 60px;
 	width: 60px;
 	border-radius: 50%;
-	background-color: hsl(150, 100%, 66%);
+	background-color: var(--fixed);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -47,4 +47,18 @@
 	font-size: 28px;
 	margin: 3rem 0;
 	font-weight: 800;
+}
+
+button {
+	background-color: var(--fixed);
+	border: none;
+	border-radius: 4px;
+	color: var(--font-text);
+	font-family: 'Manrope', sans-serif;
+	padding: 10px;
+	margin-top: 1rem;
+}
+
+button:hover {
+	cursor: pointer;
 }
